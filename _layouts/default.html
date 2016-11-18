@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+      {{ content }}
+      
+      {% include footer.html %}
+
+    </div>
+    <!-- /.container -->
+
+     <!-- jQuery -->
+    <script src="./assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
