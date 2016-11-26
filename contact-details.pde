@@ -24,8 +24,7 @@ void draw()
   int rowsToDraw = 8;
   int mouseYAdjusted = mouseY - (rowsToDraw/2)*blockHeight;
   int barYAdjusted = barY - (rowsToDraw/2)*blockHeight;
-  
-  // draw i blocks above, i below
+
   for (int i = 0; i < rowsToDraw; i++) {
     if (mouseYAdjusted < 0) mouseYAdjusted = 0;
     if (mouseYAdjusted > canvasHeight) mouseYAdjusted = canvasHeight;

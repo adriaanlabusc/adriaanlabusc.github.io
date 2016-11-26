@@ -18,6 +18,20 @@ footer {
 	margin-top: -5px;
 }
 
+@media screen and (min-width: 996px) and (max-width: 1200px) {
+	#arrow {
+		margin-left: 346px;
+		margin-top: 8px;
+
+	}
+}
+
+@media screen and (max-width: 995px) {
+	#arrow {
+		display: none;
+	}
+}
+
 /*.col-md-7{
     width: 700px;
     height: 300px;
