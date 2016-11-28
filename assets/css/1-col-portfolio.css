@@ -22,12 +22,29 @@ footer {
 	#arrow {
 		margin-left: 346px;
 		margin-top: 8px;
-
 	}
 }
 
 @media screen and (max-width: 995px) {
 	#arrow {
+		display: none;
+	}
+}
+
+/* 
+	show and hide the different kinds of contact settings.
+	Note that this doesn't really work. On an ipad and smaller it
+	won't show the processing stuff, larger it will
+
+ */
+@media screen and (max-width: 768px) {
+	.fancy_contact_details {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.simple_contact_details {
 		display: none;
 	}
 }
